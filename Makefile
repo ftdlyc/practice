@@ -8,7 +8,7 @@ AR=ar
 ARFLAGS=rcs
 LDFLAGS=
 INCLUDES= -I/usr/include/eigen3
-OPTS= -O0 -g
+OPTS= -O3
 CXXFLAGS= -std=c++11 -w
 CXXFLAGS+=$(OPTS)
 DEPS= Makefile $(wildcard *.hpp)
