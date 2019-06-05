@@ -11,3 +11,8 @@
 - insertion_sort.hpp  
 - merge_sort.hpp  
 - quick_sort.hpp  
+  
+3. 模板参数推导生成参数序列  
+具体用例stl class thread的构造函数(thread的构造函数可接受任意lambda表达式)  
+- make_arg_index_seq.cc  
+  
