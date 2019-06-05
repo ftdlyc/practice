@@ -23,7 +23,7 @@ void print_arg_index_seq(index_seq<N> in, T t) {
 template<int N, int... M, typename T, typename... Ts>
 void print_arg_index_seq(index_seq<N, M...> in, T t, Ts... ts) {
   printf("%d-%d\n", N, t);
-  print_index_seq(index_seq<M...>(), ts...);
+  print_arg_index_seq(index_seq<M...>(), ts...);
 }
 
 template<typename... T>
