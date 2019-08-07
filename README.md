@@ -24,3 +24,6 @@
   
 6. 线段树  
 - segment_tree.cc  
+  
+7. 并查集  
+- union_find.cc  
