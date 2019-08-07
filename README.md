@@ -19,3 +19,8 @@
 4. 解析加减乘除表达式  
 - parse_expression.cc  
   
+5. 数状数组  
+- binary_indexed_tree.cc  
+  
+6. 线段树  
+- segment_tree.cc  
